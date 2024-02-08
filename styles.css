@@ -1,0 +1,62 @@
+*,
+*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    color: black;
+}
+.title-container{
+    text-align: center;
+    display: flex;
+    margin: 10px 0;
+    justify-content: center;
+    gap: 8px;
+}
+.title{
+    font-size: 2.5rem;
+}
+.dropdown-container{
+    text-align: center;
+    margin-top: 25px;
+    position: relative;
+}
+select{
+    display: block;
+    margin: 20px auto 0;
+    width: 100%;
+    height: 50px;
+    font-size: 100%;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: white;
+    border: none;
+    color: gray;
+    appearance: none;
+    padding: 10px;
+    padding-right: 38px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    transition: color 0.3s ease, background-color o.3s ease, border-bottom-color 0.3s ease;
+}
+#current-date{
+    font-size: 2rem;
+    text-align: center;
+}
+.divider{
+    margin: auto;
+    width: 150px;
+    height: 10px;
+    background-color: black;
+}
+@media (max-width: 375px){
+    .title{
+        font-size: 2rem;
+    }
+    .dropdown-container{
+        width: 80%;
+    }
+}
