@@ -1,1 +1,1 @@
-A simple JavaScript app for Date and Time check.
+A simple JavaScript app for Date and hours check.
